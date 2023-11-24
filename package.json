@@ -1,0 +1,23 @@
+{
+  "name": "crud_nexjs_nodejs_mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "min": "main.js",
+  "scripts": {
+    
+    "dev": "nodemon src/index.js",
+    "start": "nodemon src/main.js"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
